@@ -1,0 +1,39 @@
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+.form_page>p {
+    margin-top: 0;
+}
+
+#form div {
+    margin-bottom: 0;
+}
+
+.name div {
+    display: flex;
+    flex-direction: column;
+}
+
+.name div input {
+    height: 1.9rem;
+    width: 13rem;
+    border-radius: 0.6rem;
+    margin-left: -1rem;
+    border-color: transparent;
+    background-color: #f7f7f7;
+    padding: 0 1rem 0 1rem;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+.signup {
+    margin-top: 1rem;
+}

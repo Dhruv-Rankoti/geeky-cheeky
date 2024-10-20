@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geeky-cheeky</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div id="maincontent">
+        <div class="bg_img">
+            <div class="bg"></div>
+            <img src="img/bgImg.png" alt="bg image">
+        </div>
+
+        <div class="form_page">
+            <h2>Welcome Back</h2>
+            <p>Sign in to continue your progress</p>
+            <form method="post" action="/action" id="form">
+                <label for="email">Email / Username</label><br>
+                <input type="email" name="Email" id="email"><br>
+                <label for="passwd">Password</label><br>
+                <input type="password" name="password" id="passwd">
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Remember me</label>
+                    
+                    <a href="HTML/signUp.html">Forget password?</a>
+                </div>
+                <button>sign in</button>
+            </form>
+            <div id="loginWith">
+                <p>OR LOGIN WITH</p>
+                <div class="logo">
+                    <img src="img/insta.png" alt="instagram">
+                    <img src="img/facebook.png" alt="facebook">
+                    <img src="img/google.png" alt="google">
+                    <img src="img/x.png" alt="X">
+                </div>
+            </div>
+            <div class="signup">
+                <p>Don't have an account? <a href="HTML/signUp.html">Register Here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

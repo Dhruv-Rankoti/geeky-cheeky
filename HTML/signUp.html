@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geeky-cheeky</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/styleForm.css">
+</head>
+<body>
+    <div id="maincontent">
+        <div class="bg_img">
+            <div class="bg"></div>
+            <img src="/img/bgImg.png" alt="bg image">
+        </div>
+
+        <div class="form_page">
+            <h2>Sign up</h2>
+            <p>Register here to start your journer</p>
+            <form method="post" action="/PHP/signup.php" id="form">
+                <div class="name">
+                    <div>
+                        <label for="firstname">First name</label>
+                        <input type="text" name="fname" id="firstname" required>
+                    </div>
+                    <div>
+                        <label for="lastname">Last name</label>
+                        <input type="text" name="lname" id="lastname" required>
+                    </div>
+                </div>
+                <label for="email">Email / Username</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="passwd">Password</label><br>
+                <input type="password" name="password" id="passwd" required>
+                <div>
+                    <div>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>
+                    <a href="HTML/signUp.html">Forget password?</a>
+                </div>
+                <button>sign in</button>
+            </form>
+            <div id="loginWith">
+                <p>OR LOGIN WITH</p>
+                <div class="logo">
+                    <img src="/img/insta.png" alt="instagram">
+                    <img src="/img/facebook.png" alt="facebook">
+                    <img src="/img/google.png" alt="google">
+                    <img src="/img/x.png" alt="X">
+                </div>
+            </div>
+            <div class="signup">
+                <p>Already registered? <a href="/index.html">Login</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

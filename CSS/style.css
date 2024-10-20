@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: #000035;
+}
+
+body {
+    background-color: #bdbdbd;
+}
+
+#maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.bg_img {
+    background-color: #000035;
+    border-radius: 0 50% 100%;
+}
+
+.bg_img img {
+    width: 40rem;
+    margin-top: 15%;
+    margin-left: -5%;
+}
+
+.form_page {
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.form_page h2 {
+    margin-left: -3%;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.form_page p {
+    margin-top: -2%;
+}
+
+#form {
+    margin-top: 10%;
+}
+
+#form>input {
+    height: 1.9rem;
+    width: 30rem;
+    margin-left: -1rem;
+    border-radius: 0.6rem;
+    border-color: transparent;
+    background-color: #f7f7f7;
+    padding: 0 1rem 0 1rem;
+}
+
+#form div {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#form div label {
+    margin-left: 0.3rem;
+}
+
+#form div label:hover  {
+    cursor: pointer;
+}
+
+#form div a {
+    margin-left: auto;
+    text-decoration: none;
+}
+
+button {
+    background-color: red;
+    border-color: transparent;
+    width: 30rem;
+    height: 2.6rem;
+    margin: auto;
+    color: goldenrod;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(253, 36, 36);
+}
+
+#loginWith {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.logo img {
+    border: 2px solid #b7b7b7;
+    background-color: #b7b7b7;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.signup {
+    margin-top: 2rem;
+}
